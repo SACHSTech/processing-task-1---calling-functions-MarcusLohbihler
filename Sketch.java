@@ -16,7 +16,7 @@ public class Sketch extends PApplet {
    * values here i.e background, stroke, fill etc.
    */
   public void setup() {
-    background(210, 255, 173);
+    background(15, 235, 255);
   }
 
   /**
@@ -25,11 +25,40 @@ public class Sketch extends PApplet {
   public void draw() {
 	  
 	// sample code, delete this stuff
-    stroke(128);
-    line(150, 25, 270, 350);  
 
-    stroke(255);
-    line(50, 125, 70, 50);  
+    //grass
+    fill(0, 175, 0);
+    rect(0, 325, 400, 75);
+    
+    //house
+    fill(255, 255, 0);
+    rect(100 , 200, 200, 200);
+    
+    //roof
+    fill(255, 0, 0);
+    rect(100, 175, 200, 25);
+
+    fill(255, 0, 0);
+    rect(125, 150, 150, 25);
+
+    fill(255, 0, 0);
+    rect(150, 125, 100, 25);
+    
+    //sun
+    fill(255, 240, 105);
+    ellipse(375, 0, 100, 100);
+
+    //door
+    fill(166, 99, 0);
+    rect(175, 300, 50, 100);
+
+    fill(255);
+    ellipse(190, 350, 10, 10);
+
+    //window
+    fill(150, 150, 255);
+    ellipse(200, 240, 62, 62);
+
   }
   
   // define other methods down here.
