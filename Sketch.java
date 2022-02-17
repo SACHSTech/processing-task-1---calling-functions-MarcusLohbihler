@@ -58,6 +58,12 @@ public class Sketch extends PApplet {
     //window
     fill(150, 150, 255);
     ellipse(200, 240, 62, 62);
+    
+    stroke(0);
+    line(170, 240, 230, 240);
+
+    stroke(0);
+    line(200, 210, 200, 270);
 
   }
   
