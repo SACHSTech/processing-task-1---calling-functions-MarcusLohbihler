@@ -23,8 +23,9 @@ public class Sketch extends PApplet {
    * Called repeatedly, anything drawn to the screen goes here
    */
   public void draw() {
-	  
-	// sample code, delete this stuff
+
+   
+	//made a house using lines, squares, ellipses
 
     //grass
     fill(0, 175, 0);
@@ -36,13 +37,7 @@ public class Sketch extends PApplet {
     
     //roof
     fill(255, 0, 0);
-    rect(100, 175, 200, 25);
-
-    fill(255, 0, 0);
-    rect(125, 150, 150, 25);
-
-    fill(255, 0, 0);
-    rect(150, 125, 100, 25);
+    triangle(100, 200, 300, 200, 200, 125);
     
     //sun
     fill(255, 240, 105);
@@ -64,6 +59,8 @@ public class Sketch extends PApplet {
 
     stroke(0);
     line(200, 210, 200, 270);
+
+    
 
   }
   
